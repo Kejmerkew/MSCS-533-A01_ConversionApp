@@ -23,4 +23,4 @@ The app allows users to:
 1. Clone the repository:
 
 ```bash
-git clone <YOUR_GITHUB_REPO_URL>
+git clone git@github.com:Kejmerkew/MSCS-533-A01_ConversionApp.git
