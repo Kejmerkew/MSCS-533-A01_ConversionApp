@@ -21,6 +21,25 @@ The app allows users to:
 ### Installation
 
 1. Clone the repository:
-
 ```bash
 git clone git@github.com:Kejmerkew/MSCS-533-A01_ConversionApp.git
+```
+
+2. Navigate to the project folder:
+```bash
+cd conversion_app
+```
+
+3. Fetch dependencies:
+```bash
+flutter pub get
+```
+
+4. Run the app on a connected device or emulator:
+```bash
+flutter run -d emulator-5554
+```
+
+### Note
+- Only compatible unit types can be converted (length → length, weight → weight, volume → volume)
+- Invalid conversions display an error message!
